@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.i{
+    color: red;
+    font-size: 30px;
+}
+article{
+    color:blue;
+}
+aside{
+    color:yellow;
+}
+.nav{
+    margin: 0  auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 400px;
+
+}
+abbr{
+    color:white;
+
+}
+p{
+    color:wheat;
+
+}
+.cube{
+    display: flex;
+
+}
+.cube1{
+    width: 200px;
+    height: 200px;
+    background-color:brown;
+    margin-right: 20px;
+}
+#cube2{
+    width: 200px;
+    height: 200px;
+    background-color:green;
+}
+ol{
+    color:white;
+    
+}
+ul{
+    color:white;
+}

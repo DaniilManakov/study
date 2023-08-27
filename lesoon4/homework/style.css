@@ -1,0 +1,41 @@
+td{
+    width: 100px;
+    height: 20px;
+}
+table{
+    margin: 20px;
+}
+.tab{
+    display: flex;
+}
+a{
+    display: block;
+    margin: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, td{
+    color: aqua;
+}
+#bg{
+    background-color: black;
+}
+table:hover{
+    background-color:red;
+}
+a::after{
+    content: '?';
+    
+}
+td::before{
+    content:'/';
+}
+a:visited{
+    color:red;
+}
+td:last-child{
+    color:black;
+}

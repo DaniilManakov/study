@@ -1,0 +1,25 @@
+td{
+    font-size: 20px;
+    color: aqua;
+}
+th{
+    background-color: black;
+    color:white;
+}
+td::before{
+    content:'';
+    width: 2px;
+    height: 2px;
+    border:1px;
+
+}
+th:nth-last-child(1){
+    color:red;
+}
+th:hover{
+    background-color:red;
+}
+
+*{
+    font-size: 30px;
+}

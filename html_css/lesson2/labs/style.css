@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color:white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+}
+.down{
+    color: rgb(122, 122, 122);
+}
+
+.p1{
+    color:blue;
+    font-size: 30px;
+}
+.p2{
+    color:red;
+    
+}

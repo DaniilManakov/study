@@ -1,0 +1,31 @@
+.bg{
+   padding-top: 200px;
+    height: 800px;
+    display: grid;
+    grid-template-rows:300px 300px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: orange;
+    justify-content: center;
+
+    
+   
+    
+    
+    
+}
+.block:nth-child(1){
+   
+    background-color: red;
+}
+.block:nth-child(2){
+    
+    background-color: green;
+}
+.block:nth-child(3){
+    
+    background-color: blue;
+}
+.block:nth-child(4){
+    
+    background-color: black;
+}

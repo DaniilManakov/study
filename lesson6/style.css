@@ -1,0 +1,23 @@
+h1{
+    margin: 0 auto;
+}
+p{
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    h1{
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    p{
+        color: blue;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1800px) {
+    p{
+        display: none;
+    }
+}
